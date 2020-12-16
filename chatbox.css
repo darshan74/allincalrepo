@@ -1,0 +1,126 @@
+.header-part{
+    height: 165px;
+    background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+}
+.firstText{
+    width: 53px;
+    height: 39px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.SecondText{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.image-box{
+    Width :21.75px;
+    Height :23.75px;
+    left: 6.43%;
+    right: 6.55%;
+    bottom: 0.7%;
+}
+
+
+.thirdText {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    width: 228px;
+    height: 46px;
+    color: #FFFFFF;
+    padding-bottom: 0px;
+}
+#forPostyouradd{
+    height: 556px;
+    width: 416px;
+    bottom: 1em; 
+    right: 2em;
+    z-index: 2147483647;
+    animation: 1s ease 0s 1 normal none running bottom-left-right-anime-close;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(46, 46, 46);
+    padding: 0 !important;
+    border: none;
+    display: none;
+}
+.header-text{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2D2D2D;
+    width: 188px;
+    height: 18px;
+}
+
+.card-body-text{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-body-img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 8px;
+    height: auto;
+}
+.card-body-border{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    width: auto;
+    height: 50px;
+}
+.card-body-starttext{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2D2D2D;
+    padding-top: 15px;
+    padding-bottom: 15px; ;
+}
+.card-body-startborder{
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    width: 268px;
+    height: 50px;
+}
+.row-padding-start{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.row-padding{
+    padding: 5px;
+}
+
+.chatbox-button{
+    padding: 10px;
+    display: block;
+}
+
+.card-header{
+    background-color: white;
+    border: none;
+}

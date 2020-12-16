@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./chatbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function postYourAdd(){
+            var iframe = $('#forPostyouradd');
+            iframe.attr("src", iframe.data("src"));
+            $("#forPostyouradd").css("display", "initial");
+            $(".chatbox-button").css("display", "block");
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+  <div class="text-center chatbox-button">
+    <button id="postYourAdd" class="btn btn-info" onclick="postYourAdd()">Open</button>
+  </div>
+  <div>
+
+  </div>
+  <div class="text-center">
+    <iframe class="embed-responsive-item" id="forPostyouradd" data-src="./chatbox.html" src="about:blank"></iframe>
+  </div>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
