@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "Darshan",
   "license": "ISC",
   "devDependencies": {
